@@ -1,0 +1,46 @@
+1. GitHub基础知识
+目的：托管代码
+
+（1）仓库（repository）：用于存放项目代码，一个项目对应一个仓库
+（2）收藏（star）：收藏别人的仓库，方便自己查找
+（3）复刻（fork）：也可以理解为分叉，复制对方的仓库到自己的账号下，自己的修改不会影响原作者，但可以通过pull request 向原作者发起请求
+（4）关注（watch）：更新会有通知
+（5）事件（issue）：发现问题或者感到疑问时，可以用于和作者咨询和讨论。作者回复后可以关闭当前issue
+（6）提出请求（pull request）：请求将自己的修改应用到原仓库
+
+开源项目贡献流程：issue  or  pull request
+
+2. git
+目的：通过git管理GitHub
+
+git工作区域：
+（1）工作区（working directory）：添加、编辑、修改文件等动作
+（2）暂存区：暂存已经修改的文件最后统一提交到Git仓库中
+（3）Git仓库（Git Repository）：最终确定的文件保存到仓库，成为新的版本，并对他人可见
+
+向仓库中添加文件流程
+指令： 
+git status
+git add filename.php
+git commit -m'提交描述'
+
+3. 初始化git及仓库创建和操作
+基本信息设置
+（1）设置用户名：git config --global user.name 'muuya'
+（2）设置用户名邮箱：git config --global user.email '603133103@qq.com'
+（3）查看设置：git config --list
+初始化一个新的Git仓库
+1.创建文件夹：mkdir demo1
+2.在文件内初始化git（创建Git仓库）:
+cd demo1
+git init
+向仓库中添加、修改、删除文件:
+创建（修改、删除）文件，添加到暂存区，提交到库
+
+4.Git管理远程仓库
+目的：备份，实现代码共享集中化管理
+git push
+
+git克隆操作
+目的：将远程仓库复制到本地
+git clone 仓库地址
