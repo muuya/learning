@@ -59,4 +59,6 @@ Project Pages 项目站点
 
 搭建步骤
 1）进入项目主页，点击settings
-2）在setting页面，点击Launch automatic page generator来自动生成主题
+2）在setting页面，Project Pages版块进行设置
+
+GitKraken:图形化管理界面
