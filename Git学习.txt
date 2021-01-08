@@ -44,3 +44,11 @@ git push
 git克隆操作
 目的：将远程仓库复制到本地
 git clone 仓库地址
+设置权限
+
+5. Github Page搭建网站
+个人站点
+访问：http：//用户名.github.io
+搭建步骤：
+1）新建个人站点->新建仓库（仓库名必须是：用户名.github.io）
+2）在仓库下新建index.html
